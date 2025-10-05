@@ -74,6 +74,8 @@ strong{
   background-color: var(--card-bg);
   box-shadow: 0 2px 5px var(--shadow);
   z-index: 1000;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .logo h1 {

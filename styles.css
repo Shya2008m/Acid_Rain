@@ -241,6 +241,7 @@ ul{
     flex-direction: column;
   }
 
+  
   .effects-text,
   .effects-gallery {
     flex: 1 1 100%;

@@ -188,7 +188,7 @@ strong{
 /* --------emmision graph------ */
 
 .graph {
-  width: 100%;
+  width: 50%;
   border-radius: 1rem;
   box-shadow: 0 0 8px #0B3D2E;
 }

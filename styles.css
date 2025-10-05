@@ -184,11 +184,24 @@ strong{
   border-radius: 1rem;
 }
 
+/* --------emmision graph------ */
+
+.graph{
+  filter: contrast(1);
+  border-radius: 1rem;
+  box-shadow: 0 0 5px #0B3D2E
+}
+
+
 /* ------------------Footer----------- */
 footer{
     margin-top: 4rem;
 }
 
+
+ul{
+  margin-left: 1.2rem;
+}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {

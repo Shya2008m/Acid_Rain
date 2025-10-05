@@ -113,6 +113,7 @@ strong{
 
 /* ---------- Cards ---------- */
 .card {
+  margin-top: 2rem;
   width: 80%;
   padding: 2rem;
   background-color: var(--card-bg);
@@ -193,14 +194,23 @@ strong{
 }
 
 
+ul{
+  margin-left: 1.2rem;
+}
+
 /* ------------------Footer----------- */
 footer{
     margin-top: 4rem;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
-ul{
-  margin-left: 1.2rem;
+
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
 }
 
 /* ---------- Responsive ---------- */

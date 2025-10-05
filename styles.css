@@ -180,17 +180,17 @@ strong{
 
 .divider {
   width: 2px;
-  background-color: var(--divider);
-  box-shadow: 0 0 10px var(--divider);
+  background-color: #A3E635;
+  box-shadow: 0 0 10px #A3E635;
   border-radius: 1rem;
 }
 
 /* --------emmision graph------ */
 
-.graph{
-  filter: contrast(1);
+.graph {
+  width: 100%;
   border-radius: 1rem;
-  box-shadow: 0 0 5px #0B3D2E
+  box-shadow: 0 0 8px #0B3D2E;
 }
 
 
@@ -199,10 +199,32 @@ ul{
 }
 
 /* ------------------Footer----------- */
-footer{
-    margin-top: 4rem;
-    margin-left: 5px;
-    margin-right: 5px;
+.footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #2E7D32;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 80px;
+  margin: 1rem auto;
+}
+
+.sources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sources a {
+  /* color: var(--accent); */
+  text-decoration: none;
+}
+
+.sources a:hover {
+  text-decoration: underline;
 }
 
 
@@ -224,7 +246,11 @@ footer{
     flex: 1 1 100%;
   }
 
-  .divider {
-    display: none;
+  .card {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 1.5rem;
   }
 }
